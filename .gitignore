@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+autopilot.db
+
+# Generated data artifacts
+data/object_store/
+data/curated/
+data/raw/*.bin
+data/raw/sample_metadata.jsonl
+
+# Tooling
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.coverage

@@ -1,0 +1,12 @@
+fastapi==0.115.8
+uvicorn==0.34.0
+sqlalchemy==2.0.38
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-dateutil==2.9.0.post0
+opensearch-py==2.8.0
+requests==2.32.3
+streamlit==1.42.0
+pandas==2.2.3
+numpy==2.2.3
+kafka-python==2.1.5
