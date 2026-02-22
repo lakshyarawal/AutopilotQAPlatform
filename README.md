@@ -20,7 +20,6 @@ A production-style data tooling project for autonomous-driving workflows.
 Detailed docs:
 - Architecture: `docs/ARCHITECTURE.md`
 - API reference: `docs/API_REFERENCE.md`
-- Resume bullets: `docs/RESUME_BULLETS.md`
 
 ## Quick Start
 
@@ -102,11 +101,11 @@ Spark Structured Streaming template:
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3 scripts/spark_structured_streaming.py
 ```
 
-## Why This Is Resume-Strong
+## Engineering Highlights
 
-- Shows end-to-end ownership: APIs, data model, ingestion runtime, analytics UI, and streaming patterns.
-- Uses reliability practices expected in senior environments: preflight checks, smoke tests, CI workflow, deterministic Make targets.
-- Maps directly to autonomous-driving data tooling responsibilities (catalog, QA loops, edge-case discovery, data flywheel patterns).
+- End-to-end implementation across APIs, data model, ingestion runtime, analytics UI, and streaming patterns.
+- Reliability-focused workflow with preflight checks, smoke tests, CI workflow, and deterministic Make targets.
+- Autonomous-driving data tooling primitives: cataloging, QA analysis loops, edge-case discovery, and data flywheel patterns.
 
 ## License
 
